@@ -1,6 +1,15 @@
 ### Labs ###
 
 
+## Installation ##
+Go to the folder where you want to have the project and clone the repository to your machine:
+
+`git clone https://github.com/CodingNomads/javaFundamentalsLabs.git`
+
+Import the project in IntelliJ (It is important to import and not to open because then it will configure itself to be able to be run as java project)
+
+
+
 * Part 1 - Hello world, the main function, printing messages and math
 * Part 2 - User input (Scanner), nested-if, switch statement, Loops (while, do-while, for).
 * Part 3 - Classes, Objects, Instances, Methods, Variables, Static vs non-Static, Byte Operators
