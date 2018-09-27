@@ -9,6 +9,7 @@ Go to the folder where you want to have the project and clone the repository to 
 Import the project in IntelliJ (It is important to import and not to open because then it will configure itself to be able to be run as java project)
 
 
+## Topics ##
 
 * Part 1 - Hello world, the main function, printing messages and math
 * Part 2 - User input (Scanner), nested-if, switch statement, Loops (while, do-while, for).
