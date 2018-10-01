@@ -75,7 +75,7 @@ Done! Now your code will be reviewed by someone.
 
 * Part 1 - Hello world, the main function, printing messages and math
 * Part 2 - User input (Scanner), nested-if, switch statement, Loops (while, do-while, for).
-* Part 3 - Classes, Objects, Instances, Methods, Variables, Static vs non-Static, Byte Operators
+* Part 3 - Classes, Objects, Instances, Methods, Variables, Static vs non-Static
 * Part 4 - Arrays, Queues, Stacks, Enhanced for-loop, Collections framework, String, Bubble Sort.
 * Part 5 - Access control modifiers, Encapsulation, Overloading methods/constructor, recursion, inner classes, varargs.
 * Part 6 - Inheritance, 'super' keyword, constructors calling order, Overriding methods and polymorphism, 'final' keyword. 
