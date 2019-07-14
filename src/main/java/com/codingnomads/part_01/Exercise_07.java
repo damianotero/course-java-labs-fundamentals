@@ -10,4 +10,24 @@ package com.codingnomads.part_01;
 
 public class Exercise_07 {
 
+    public static void main(String[] args) {
+
+        double num = 1;
+        boolean isNegative = true;
+        for (double i = 3; i < 120; i = i + 2) {
+            double division = 1 / i;
+            if (isNegative) {
+                num -= division;
+            } else {
+                num += division;
+            }
+            isNegative = !isNegative;
+
+
+        }
+        System.out.println(num * 4);
+
+
+    }
 }
+

@@ -7,6 +7,6 @@ package com.codingnomads.part_01;
  * and perimeter of a circle with a radius of 3.14
  */
 
-public class Exercise_08 {
+public class Exercise_08 { //TODO THIS EXERCISE  8
 
 }
