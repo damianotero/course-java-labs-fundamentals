@@ -6,12 +6,3 @@ jdk:
 
 script:
 - ./gradlew build --stacktrace
-
-notifications:
-  slack:
-    rooms:
-    - codingnomads:DAXjUWJQ6OaVTvCtUssOHtFy#java-labs-fundamental
-    - codingnomads2019:J8DQVwpy5UWQOAMVIwIIEb5D#java-labs-fundamental
-
-    on_success: always
-    on_failure: always
