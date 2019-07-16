@@ -9,6 +9,16 @@ package com.codingnomads.part_02;
  */
 public class Exercise_09 {
 
+    public static void main(String[] args) {
+
+        char letter= 'Z';
+
+        do {
+            System.out.println(letter);
+            letter--;
+        }while (letter >='A');
+    }
+
 }
 
 
