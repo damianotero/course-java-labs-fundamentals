@@ -14,4 +14,21 @@ package com.codingnomads.part_01;
 
 public class Exercise_11 {
 
+    public static void main(String[] args) {
+
+        int secondsInAYear = 365 * 24 * 60 * 60;
+        int currentPopulation = 380123456;
+        int bornsPerYear = secondsInAYear / 6;
+        int diesPerYear = secondsInAYear / 12;
+        int immigratesPerYear = secondsInAYear / 40;
+        int incrementOfPopulationPerYear = bornsPerYear-diesPerYear-immigratesPerYear;
+
+        for (int i = 1; i <=3 ; i++) {
+            currentPopulation+= incrementOfPopulationPerYear;
+            System.out.println("Population in " +i+ " year: " + currentPopulation);
+
+        }
+
+    }
+
 }
