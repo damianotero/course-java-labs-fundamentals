@@ -14,7 +14,32 @@ package com.codingnomads.part_04;
 
 public class Exercise_03 {
 
+    private static void createArray(int[][] array) {
+        int counter=0;
+        for (int i = 0; i < 5; i++) {
+            for (int j = 0; j < 10; j++) {
+                array[i][j]=counter;
+                counter++;
+            }
+        }
+    }
+
+    private static void printArray(int[][] array) {
+        for (int i = 0; i <5 ; i++) {
+            for (int j = 0; j <10 ; j++) {
+                System.out.print(array[i][j]+ " ");
+            }
+            System.out.println();
+
+        }
+    }
+
+
     public static void main(String[] strings) {
 
+        int[][] array = new int[5][10];
+
+        createArray(array);
+        printArray(array);
     }
 }

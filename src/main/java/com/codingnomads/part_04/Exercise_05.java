@@ -13,6 +13,10 @@ package com.codingnomads.part_04;
 public class Exercise_05 {
 
     public static void main(String[] strings) {
-
+        
+        int[] array = new int[]{5,4,8,63,9};
+        for (int i : array) {
+            System.out.println(i);
+        }
     }
 }
