@@ -1,4 +1,4 @@
-package com.codingnomads.part_05;
+package com.codingnomads.part_05.Exercise_02;
 
 /**
  * Write two classes. In Class_01 (which contains the main()) create an instance of Class_02 and pass that instance
@@ -7,3 +7,4 @@ package com.codingnomads.part_05;
  * modify the instance variables of Class_02 once again. Use System.out.println at various points to demonstrate the
  * flow of execution and the varying state of each private variable. You can name these classes whatever you want.
  */
+

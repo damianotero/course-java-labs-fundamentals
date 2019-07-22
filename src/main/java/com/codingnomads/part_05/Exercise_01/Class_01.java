@@ -1,4 +1,4 @@
-package com.codingnomads.part_05;
+package com.codingnomads.part_05.Exercise_01;
 
 /**
  * Write three classes. The Class_01 should contain the main method. The main method should create an instance
@@ -8,3 +8,17 @@ package com.codingnomads.part_05;
  * private instance variables. Use System.out.println at various points to demonstrate the flow of execution and
  * the varying state of each private variable. You may name these classes whatever you like.
  */
+public class Class_01 {
+    public static void main(String[] args) {
+
+        Class_02 class_02 = new Class_02();
+        class_02.setNumber2(7);
+        System.out.println("CLass 2 instance variables changed!");
+        class_02.setClass_03("hola ", "que", " tal");
+
+    }
+
+}
+
+
+
