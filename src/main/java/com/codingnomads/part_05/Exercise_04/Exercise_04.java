@@ -1,4 +1,4 @@
-package com.codingnomads.part_05;
+package com.codingnomads.part_05.Exercise_04;
 
 /**
  * Write two classes. Class_01 should have the main(). Class_02 must have 3 or more private variables. Class_02 must

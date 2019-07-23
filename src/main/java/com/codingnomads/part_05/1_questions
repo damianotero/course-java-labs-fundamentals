@@ -2,18 +2,37 @@ Answer the following:
 
 1) What are the access control modifiers (acm) provided in Java?
 
+It's a keyword that defines the scope of access of a method, variable, class..
+
 2) Briefly explain each acm and how they differentiate from each other?
+
+public : You can access from everywhere
+private; Only from that class
+protected; only from that package and subclasses
+default: only from that package
 
 3) Why do we use acm's?
 
+To limit the access to variables, methods and classes to specific classes.
+
 4) What is the risk of not using acm's?
+
+Other classes can change the variables without control. Ex. Putting a negative age.
 
 5) Write a method signature that receives an object of type "Car" as a parameter.
 
+public void setCar(Car car){
+}
+
 6) Write a method signature that returns an object of type "Car".
+
+public Car getCar(){
+}
 
 7) What is a very important consideration to keep in mind when passing objects (hint: by reference) from one
 method to another?
+
+
 
 8) What is method overloading?
 
